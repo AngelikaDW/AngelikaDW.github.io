@@ -1,0 +1,114 @@
+
+html,
+body {
+  height: 100%;
+  background-color: #3E8C84;
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0;
+  color: #fff;
+  text-align: left;
+}
+
+#main {
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+#map {
+  height: 75%;
+  margin-top: 10px;
+  margin: 10px;
+}
+
+/*Search box*/
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+  color: black;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+  color: black;
+}
+
+#type-selector {
+  color: black;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  color: black;
+}
+#target {
+  width: 345px;
+  color: black;
+}
+
+#showMap {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  color: #3E8C84;
+}
+#footer{
+  text-align: center;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing h2 {
+  font-weight: normal;
+}
+a, a:focus, a:hover, a:active {
+  color: white;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
